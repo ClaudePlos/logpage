@@ -1,7 +1,7 @@
 class SessionApi {
     static login(credentials) {
         //debugger;
-        var apiBaseUrl = "https://.........";
+        var apiBaseUrl = "https://......";
         const request = new Request(apiBaseUrl + `/login`, {
             method: 'POST',
             headers: new Headers({

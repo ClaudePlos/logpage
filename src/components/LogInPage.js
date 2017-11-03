@@ -45,12 +45,16 @@ class LogInPage extends React.Component {
 
                         <input
                             type="submit"
-                            value="LogIn v01"
+                            value="LogIn"
                             className="btn btn-primary"
                             onClick={this.onSave}/>
                         {" "}
+
                     </form>
                 </div>
+                <center>
+                <img  src="https://user-images.githubusercontent.com/6311412/32380989-dddaff0a-c0b1-11e7-8277-9868a4d2c901.png" />
+                </center>
             </div>
         );
     }
